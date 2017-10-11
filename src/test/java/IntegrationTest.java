@@ -16,7 +16,7 @@ public class IntegrationTest {
         System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
         driver = new ChromeDriver();
     }
-    // Тест сверки инфы виджета с минимальной температурой Екатеринбурга
+    // Тест сверки инфы виджета Екатеринбурга на странице с прогнозом на 2 недели и на самом виджете
     @Test
     public void testInfoOfRandAvailableWidgetInNear2Week(){
 
